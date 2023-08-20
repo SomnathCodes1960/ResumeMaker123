@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.workArea{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 10px;
+    height: 1130px;
+    border: 1px solid black;
+}
+.entryArea{
+    height:100%;
+    width: min(740px,100%);
+}
+.resumeArea {
+    height:100%;
+    width: min(740px,100%);
+}
+
+.borderBlack{
+    border: 1px solid black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
+
+}
+:root{
+
+    --darkGreen:rgb(7, 62, 44);
+    --Black:black;
+    --navIcons:rgb(108, 80, 8);
+}
+
+.workSpace{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    border: 1px solid black;
+    height: 1150px;
+}
+.EntryArea{
+    height: 100%;
+    width:min(760px,100%);
+}
+.resumeArea{
+    height: 100%;
+    width:min(715px,100%);
+}
+
+.borderBlack{
+    border: 1px solid black;
+}
+.borderBlack1{
+    border-right: 3.5px solid black;
+}
+
+/*Resume Section */
+.resumeHeader{
+    display: grid;
+    height: 120px;
+    margin-top: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.3fr 0.3fr;
+}
+.nameEntry{
+    font-size: 35px;
+    margin-top: 2.75px;
+    text-align: center;
+}
+.locEntry{
+    font-size: 2.75vmin;
+    margin-top: 0.5vmin;
+    text-align: center;
+}
+.contHeaderDiv{
+    display: flex;
+    justify-content: center;
+}
+.contHeaderDiv li{
+    list-style: none;
+    margin-left: 3.5px;
+    margin-top: 10px;
+}
+.Linkedin:hover{
+    text-decoration: underline;
+}
+.Github:hover{
+    text-decoration: underline;
+}
+.resumeBody{
+    height: calc(1150px - 150px);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.4fr 0.6fr;
+    margin-top: 1vmin;
+}
+.leftBody{
+    display: grid;
+    grid-template-rows: 0.4fr 0.3fr 0.3fr;
+    grid-template-columns: 1fr;
+}
+
+.eduHeader{
+    margin-top: 10px;
+    padding-left: 7px;
+}
+.eduComp{
+    margin-top: 10px;
+}
+.SkillsHeader{
+    padding-left: 7px;
+    margin-top: 2.52px;
+}
+.eduHeaderText{
+    
+    margin-top: 2px;
+    font-size: 20px;
+
+}
+.degreeDetails{
+    display: flex;
+    padding-left: 7px;
+    padding-right: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.degreeNameDiv{
+   
+    margin-top: 2px;
+   
+
+}
+.degreeNameText{
+    font-weight: bold;
+    font-size: 17px;
+}
+.degreeDate{
+    padding-right: 7px;
+}
+.degreeDateText{
+    margin-top: 2px;
+    font-size: 15px;
+}
+.instNameDiv{
+    margin-top: 2px;
+    padding-left: 7px;
+}
+.gradeTextDiv{
+    margin-top: 2px;
+    padding-left:7px;
+}
+.SkillDivText{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 18px;
+    padding-top: 7px;
+}
+.additionalSkillDivText{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 18px;
+    padding-top: 7px;
+}
+.courseDivText{
+    padding-left: 7px;
+    font-size: 20px;
+}
+.courseListDiv{
+    margin-top: 15px;
+}
+.certificateText{
+    list-style: none;
+    padding-left: 7px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.aboutDiv{
+    padding-left: 15px;
+}
+.aboutText{
+    font-size: 25px;
+    margin-top: 2px;
+
+}
+.aboutBoxDiv{
+    height: 150px;
+    margin-top: 10px;
+    
+    font-size: 18px;
+}
+.projects{
+    margin-top: 30px;
+    padding-left:15px;
+}
+.projectsText{
+    font-size: 25px;
+}
+.projectName{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Achievements{
+    
+    height: max-content;
+    margin-top: 15px;
+}
+.AchievementsText{
+    font-size: 25px;
+}
+.AchievementsDivHolder{
+    padding-left: 7px;
+    margin-top: 10px;
+}
+.achievementHolder{
+    padding-left: 7px;
+}
+.achievement{
+    list-style: none;
+    margin-top: 2px;
+}
+.achievements{
+    margin-top: 7px;
+    font-size: 17px;
+}
